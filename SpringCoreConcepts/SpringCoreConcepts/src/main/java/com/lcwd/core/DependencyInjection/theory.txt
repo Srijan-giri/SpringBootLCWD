@@ -1,0 +1,38 @@
+There are three types of injection are : 1) Constructor Based Dependency Injection
+
+                                         Ex : 
+                                         class Student{
+                                         
+	                                         @Autowired
+	                                         public Student(Animal animal){
+	                                         
+	                                         }
+                                         
+                                         }
+                                         
+                                         2) Setter Based Dependency Injection
+                                         
+                                         Ex:
+                                         
+                                         class Student{
+                                         
+                                             @Autowired
+	                                         public void setAnimal(Animal animal)
+	                                         {
+	                                            this.animal =animal;
+	                                         }
+	               
+                                         }      
+                                         
+                                         3) Field or Property-Based Dependency Injection
+
+                                         Ex:
+                                         
+                                          class Student{
+                                             
+                                             @Autowired
+                                             private Animal animal;
+	               
+                                         } 
+                                         
+  

@@ -1,0 +1,20 @@
+What is Spring Framework ??
+
+Ans : Spring is Dependency Injection Framework !!
+
+Spring Framework provides many sub frameworks AOP,ORM,JDBC,MVC etc.
+
+What is Dependency ??
+-->  Web Layer ----> Bussiness Layer ----> Data Layer ----> Database
+     JSP,SERVLET       SPRING
+     MVC , WEB VIEW
+
+
+We have to tell 3 important things to Spring ??
+
+Ans : 
+      1. About the beans
+      2. About Dependencies
+      3. Where to search the beans
+      
+      @Component --> that is used for bean declaration.

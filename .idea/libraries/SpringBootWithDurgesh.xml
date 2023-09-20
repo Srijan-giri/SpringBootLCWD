@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="SpringBootWithDurgesh">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/FirstProject/src" />
+      <root url="file://$PROJECT_DIR$/SecondProject/src/main/java" />
+      <root url="file://$PROJECT_DIR$/SecondProject/src/test/java" />
+      <root url="file://$PROJECT_DIR$/SpringCoreConcepts/SpringCoreConcepts/src/main/java" />
+      <root url="file://$PROJECT_DIR$/SpringCoreConcepts/SpringCoreConcepts/src/test/java" />
+      <root url="file://$PROJECT_DIR$" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$" recursive="false" type="SOURCES" />
+  </library>
+</component>
