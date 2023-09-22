@@ -18,3 +18,5 @@ Ans :
       3. Where to search the beans
       
       @Component --> that is used for bean declaration.
+
+---------------------------------- core done ---------------------------------------------
