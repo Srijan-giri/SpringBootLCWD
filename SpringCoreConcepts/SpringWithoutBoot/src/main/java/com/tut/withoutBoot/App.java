@@ -50,5 +50,6 @@ public class App
         
         Repo r = context.getBean(Repo.class);
         r.getUser();
+        
     }
 }
