@@ -1,5 +1,6 @@
 package com.lcwd.first.controllers;
 
+import com.lcwd.first.Model.TodoManager;
 import com.lcwd.first.config.LCWDConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -65,5 +66,17 @@ public class HomeController {
     public LCWDConfig getLcwdConfig(){
         System.out.println(this.lcwdConfig);
         return this.lcwdConfig;
+    }
+
+    @RequestMapping("/allTodos")
+    public List<TodoManager> getAllTodos(){
+        List<TodoManager> allTodos = Arrays.asList(
+                new TodoManager(1,"Spring Boot"),
+                new TodoManager(2,"Django"),
+                new TodoManager(3,"Node JS")
+        );
+
+        System.out.println(allTodos);
+        return allTodos;
     }
 }
