@@ -20,3 +20,49 @@ Ans :
       @Component --> that is used for bean declaration.
 
 ---------------------------------- core done ---------------------------------------------
+
+JSON
+-----
+
+JSON --> text format used for storing and transpoting the data.
+JSON ==> Javascript Object Notation
+
+parse() ==> json-> object
+stringfy() ==> object -> json
+
+let friends = ["ram","shyam","sita"];
+['ram', 'shyam', 'sita']
+let jstr = JSON.stringify(friends);
+'["ram","shyam","sita"]'
+
+let student = {name : "Ankit",phone :[2345,4222],laptops:["macbook","dell"]};
+{name: 'Ankit', phone: Array(2), laptops: Array(2)}
+let jstr2 = JSON.stringify(student);
+'{"name":"Ankit","phone":[2345,4222],"laptops":["macbook","dell"]}'
+
+let ob = JSON.parse(jstr2);
+{name: 'Ankit', phone: Array(2), laptops: Array(2)}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
