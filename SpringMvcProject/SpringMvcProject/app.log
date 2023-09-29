@@ -1,0 +1,84 @@
+2023-09-29T02:49:10.397+05:30  INFO 6604 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.7 with PID 6604 (E:\LCWD Course\SpringBootWithDurgesh\SpringMvcProject\SpringMvcProject\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\SpringMvcProject\SpringMvcProject)
+2023-09-29T02:49:10.403+05:30  INFO 6604 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-09-29T02:49:10.590+05:30  INFO 6604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-29T02:49:10.592+05:30  INFO 6604 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-29T02:49:14.162+05:30  INFO 6604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-29T02:49:14.204+05:30  INFO 6604 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-29T02:49:14.206+05:30  INFO 6604 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-29T02:49:14.399+05:30  INFO 6604 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-29T02:49:14.402+05:30  INFO 6604 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3807 ms
+2023-09-29T02:49:15.941+05:30  INFO 6604 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-29T02:49:16.026+05:30  INFO 6604 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-29T02:49:16.048+05:30  INFO 6604 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 9.035 seconds (process running for 10.049)
+2023-09-29T02:49:21.812+05:30  INFO 6604 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-29T02:49:21.815+05:30  INFO 6604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-29T02:49:21.818+05:30  INFO 6604 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-09-29T02:49:21.943+05:30 ERROR 6604 --- [http-nio-8080-exec-2] c.l.m.S.controller.ProductController     : ProductName : its just testing testing argument
+2023-09-29T02:49:21.949+05:30  WARN 6604 --- [http-nio-8080-exec-2] c.l.m.S.controller.ProductController     : ProductId : 27177
+2023-09-29T02:49:21.949+05:30  INFO 6604 --- [http-nio-8080-exec-2] c.l.m.S.controller.ProductController     : Product Rating : 3122
+2023-09-29T02:50:58.769+05:30 ERROR 6604 --- [http-nio-8080-exec-5] c.l.m.S.controller.ProductController     : ProductName : Samsung fold phone testing argument
+2023-09-29T02:50:58.770+05:30  WARN 6604 --- [http-nio-8080-exec-5] c.l.m.S.controller.ProductController     : ProductId : 14252
+2023-09-29T02:50:58.771+05:30  INFO 6604 --- [http-nio-8080-exec-5] c.l.m.S.controller.ProductController     : Product Rating : 772
+2023-09-29T02:51:58.610+05:30 ERROR 6604 --- [http-nio-8080-exec-6] c.l.m.S.controller.ProductController     : ProductName : Samsung TV testing argument
+2023-09-29T02:51:58.611+05:30  WARN 6604 --- [http-nio-8080-exec-6] c.l.m.S.controller.ProductController     : ProductId : 2342
+2023-09-29T02:51:58.611+05:30  INFO 6604 --- [http-nio-8080-exec-6] c.l.m.S.controller.ProductController     : Product Rating : 12
+2023-09-29T02:56:35.238+05:30  INFO 7892 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.7 with PID 7892 (E:\LCWD Course\SpringBootWithDurgesh\SpringMvcProject\SpringMvcProject\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\SpringMvcProject\SpringMvcProject)
+2023-09-29T02:56:35.248+05:30  INFO 7892 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-09-29T02:56:35.504+05:30  INFO 7892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-29T02:56:35.505+05:30  INFO 7892 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-29T02:56:39.016+05:30  INFO 7892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-29T02:56:39.049+05:30  INFO 7892 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-29T02:56:39.050+05:30  INFO 7892 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-29T02:56:39.208+05:30  INFO 7892 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-29T02:56:39.211+05:30  INFO 7892 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3702 ms
+2023-09-29T02:56:40.593+05:30  INFO 7892 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-29T02:56:40.686+05:30  INFO 7892 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-29T02:56:40.713+05:30  INFO 7892 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 7.368 seconds (process running for 9.041)
+2023-09-29T02:56:50.095+05:30  INFO 7892 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-29T02:56:50.099+05:30  INFO 7892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-29T02:56:50.115+05:30  INFO 7892 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 14 ms
+2023-09-29T02:56:50.242+05:30 ERROR 7892 --- [http-nio-8080-exec-1] c.l.m.S.controller.ProductController     : ProductName : Samsung TV testing argument
+2023-09-29T02:56:50.251+05:30  WARN 7892 --- [http-nio-8080-exec-1] c.l.m.S.controller.ProductController     : ProductId : 2342
+2023-09-29T02:56:50.251+05:30  INFO 7892 --- [http-nio-8080-exec-1] c.l.m.S.controller.ProductController     : Product Rating : 12
+2023-09-29T02:57:23.933+05:30 ERROR 7892 --- [http-nio-8080-exec-3] c.l.m.S.controller.ProductController     : ProductName : Samsung fold phone testing argument
+2023-09-29T02:57:23.935+05:30  WARN 7892 --- [http-nio-8080-exec-3] c.l.m.S.controller.ProductController     : ProductId : 14252
+2023-09-29T02:57:23.936+05:30  INFO 7892 --- [http-nio-8080-exec-3] c.l.m.S.controller.ProductController     : Product Rating : 772
+2023-09-29T02:57:55.646+05:30 ERROR 7892 --- [http-nio-8080-exec-4] c.l.m.S.controller.ProductController     : ProductName : Samsung fold phone testing argument
+2023-09-29T02:57:55.648+05:30  WARN 7892 --- [http-nio-8080-exec-4] c.l.m.S.controller.ProductController     : ProductId : 14252
+2023-09-29T02:57:55.649+05:30  INFO 7892 --- [http-nio-8080-exec-4] c.l.m.S.controller.ProductController     : Product Rating : 772
+2023-09-29T02:58:12.311+05:30  INFO 14660 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.7 with PID 14660 (E:\LCWD Course\SpringBootWithDurgesh\SpringMvcProject\SpringMvcProject\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\SpringMvcProject\SpringMvcProject)
+2023-09-29T02:58:12.320+05:30 DEBUG 14660 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Running with Spring Boot v3.1.4, Spring v6.0.12
+2023-09-29T02:58:12.327+05:30  INFO 14660 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-09-29T02:58:12.682+05:30  INFO 14660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-09-29T02:58:12.685+05:30  INFO 14660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-09-29T02:58:17.182+05:30  INFO 14660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-09-29T02:58:17.238+05:30  INFO 14660 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-09-29T02:58:17.241+05:30  INFO 14660 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-09-29T02:58:17.804+05:30  INFO 14660 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-09-29T02:58:17.815+05:30  INFO 14660 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5121 ms
+2023-09-29T02:58:19.983+05:30  INFO 14660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-09-29T02:58:20.100+05:30  INFO 14660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-09-29T02:58:20.183+05:30  INFO 14660 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 10.156 seconds (process running for 12.115)
+2023-09-29T02:58:36.361+05:30  INFO 14660 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-09-29T02:58:36.364+05:30  INFO 14660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-09-29T02:58:36.380+05:30  INFO 14660 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2023-09-29T02:58:36.488+05:30 ERROR 14660 --- [http-nio-8080-exec-1] c.l.m.S.controller.ProductController     : ProductName : Samsung TV testing argument
+2023-09-29T02:58:36.493+05:30  WARN 14660 --- [http-nio-8080-exec-1] c.l.m.S.controller.ProductController     : ProductId : 2342
+2023-09-29T02:58:36.494+05:30  INFO 14660 --- [http-nio-8080-exec-1] c.l.m.S.controller.ProductController     : Product Rating : 12
+2023-09-29T02:58:36.495+05:30 DEBUG 14660 --- [http-nio-8080-exec-1] c.l.m.S.controller.ProductController     : This is testing for debugging check product
+2023-09-29T02:58:58.599+05:30 ERROR 14660 --- [http-nio-8080-exec-3] c.l.m.S.controller.ProductController     : ProductName : Samsung fold phone testing argument
+2023-09-29T02:58:58.601+05:30  WARN 14660 --- [http-nio-8080-exec-3] c.l.m.S.controller.ProductController     : ProductId : 14252
+2023-09-29T02:58:58.602+05:30  INFO 14660 --- [http-nio-8080-exec-3] c.l.m.S.controller.ProductController     : Product Rating : 772
+2023-09-29T02:58:58.603+05:30 DEBUG 14660 --- [http-nio-8080-exec-3] c.l.m.S.controller.ProductController     : This is testing for debug
+2023-09-29T03:03:31.746+05:30  INFO 20536 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Starting SpringMvcProjectApplication using Java 17.0.7 with PID 20536 (E:\LCWD Course\SpringBootWithDurgesh\SpringMvcProject\SpringMvcProject\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\SpringMvcProject\SpringMvcProject)
+2023-09-29T03:03:31.752+05:30 DEBUG 20536 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Running with Spring Boot v3.1.4, Spring v6.0.12
+2023-09-29T03:03:31.756+05:30  INFO 20536 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-09-29T03:03:36.106+05:30  INFO 20536 --- [restartedMain] c.l.m.S.SpringMvcProjectApplication      : Started SpringMvcProjectApplication in 5.369 seconds (process running for 6.215)
+2023-09-29T03:03:42.049+05:30 ERROR 20536 --- [http-nio-8080-exec-1] c.l.m.S.controller.ProductController     : ProductName : Samsung fold phone testing argument
+2023-09-29T03:03:42.056+05:30  WARN 20536 --- [http-nio-8080-exec-1] c.l.m.S.controller.ProductController     : ProductId : 14252
+2023-09-29T03:03:42.057+05:30  INFO 20536 --- [http-nio-8080-exec-1] c.l.m.S.controller.ProductController     : Product Rating : 772
+2023-09-29T03:03:42.057+05:30 DEBUG 20536 --- [http-nio-8080-exec-1] c.l.m.S.controller.ProductController     : This is testing for debug
+2023-09-29T03:04:12.040+05:30 ERROR 20536 --- [http-nio-8080-exec-3] c.l.m.S.controller.ProductController     : ProductName : Samsung TV testing argument
+2023-09-29T03:04:12.042+05:30  WARN 20536 --- [http-nio-8080-exec-3] c.l.m.S.controller.ProductController     : ProductId : 2342
+2023-09-29T03:04:12.042+05:30  INFO 20536 --- [http-nio-8080-exec-3] c.l.m.S.controller.ProductController     : Product Rating : 12
+2023-09-29T03:04:12.042+05:30 DEBUG 20536 --- [http-nio-8080-exec-3] c.l.m.S.controller.ProductController     : This is testing for debugging check product
