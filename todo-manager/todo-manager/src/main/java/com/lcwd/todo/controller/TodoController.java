@@ -29,7 +29,15 @@ public class TodoController {
     public ResponseEntity<Todo> createTodoHandler(
             @RequestBody Todo todo
     ){
+
+
         // create todo
+
+//        String str = null;  // null pointer exception
+//        logger.info("{}",str.length());
+
+//        Integer.parseInt("8199hsjsjs");
+
 
         int id = random.nextInt(999999);
         todo.setId(id);
@@ -81,5 +89,34 @@ public class TodoController {
         todoService.deleteTodo(deleteId);
         return ResponseEntity.ok("Todo Successfully Deleted");
     }
+
+    // exception handler
+
+//    @ExceptionHandler(NullPointerException.class)
+//    public ResponseEntity<String> nullPointerException(NullPointerException ex)
+//    {
+//        System.out.println(ex.getMessage());
+//        System.out.println("Null Pointer Exception generated");
+//        return new ResponseEntity("Null Pointer Exception generated :: "+ex.getMessage(),HttpStatus.INTERNAL_SERVER_ERROR);
+//        //return "Null Pointer Exception generated :: "+ex.getMessage();
+//    }
+
+//    @ExceptionHandler(NumberFormatException.class)
+//    @ExceptionHandler(value ={NullPointerException.class,NumberFormatException.class} )
+//    public ResponseEntity<String> numberFormatException(Exception ex)
+//    {
+//        System.out.println(ex.getMessage());
+//        System.out.println("Number Format Exception generated");
+//        return new ResponseEntity("Number Format Exception generated :: "+ex.getMessage(),HttpStatus.INTERNAL_SERVER_ERROR);
+//        //return "Null Pointer Exception generated :: "+ex.getMessage();
+//    }
+
+//    @ExceptionHandler(Exception.class)
+//    public ResponseEntity<String> genericException(Exception ex)
+//    {
+//        System.out.println(ex.getMessage());
+//        System.out.println("Generic Exception");
+//        return new ResponseEntity<>("Generic Exception",HttpStatus.INTERNAL_SERVER_ERROR);
+//    }
 
 }

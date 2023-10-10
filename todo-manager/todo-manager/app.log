@@ -1,39 +1,145 @@
-2023-10-01T16:10:47.166+05:30  INFO 16572 --- [main] com.lcwd.todo.TodoManagerApplication     : Starting TodoManagerApplication using Java 17.0.7 with PID 16572 (E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager)
-2023-10-01T16:10:47.176+05:30  INFO 16572 --- [main] com.lcwd.todo.TodoManagerApplication     : No active profile set, falling back to 1 default profile: "default"
-2023-10-01T16:10:49.699+05:30  INFO 16572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
-2023-10-01T16:10:49.712+05:30  INFO 16572 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-10-01T16:10:49.713+05:30  INFO 16572 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
-2023-10-01T16:10:49.918+05:30  INFO 16572 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-10-01T16:10:49.919+05:30  INFO 16572 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2601 ms
-2023-10-01T16:10:50.793+05:30  INFO 16572 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
-2023-10-01T16:10:50.817+05:30  INFO 16572 --- [main] com.lcwd.todo.TodoManagerApplication     : Started TodoManagerApplication in 4.975 seconds (process running for 5.88)
-2023-10-01T16:10:58.887+05:30  INFO 16572 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-10-01T16:10:58.888+05:30  INFO 16572 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-10-01T16:10:58.890+05:30  INFO 16572 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2023-10-01T16:10:59.049+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : File name : 21c66e61e2-result-20230907164941-360-480.jpeg
-2023-10-01T16:10:59.051+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : Content type:image/jpeg
-2023-10-01T16:10:59.051+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : File size : 37825
-2023-10-01T16:10:59.051+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : File name : 94c8776ebcc3387c1d71bdf0d6d7e97d.jpg
-2023-10-01T16:10:59.051+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : Content type:image/jpeg
-2023-10-01T16:10:59.052+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : File size : 24033
-2023-10-01T16:10:59.052+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : File name : 71063-joker-movie-joker-hd-superheroes-supervillain-hd-4k.jpg
-2023-10-01T16:10:59.052+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : Content type:image/jpeg
-2023-10-01T16:10:59.052+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : File size : 1002989
-2023-10-01T16:10:59.053+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : File name : 4089843-fortnitekidlaroi.jpg
-2023-10-01T16:10:59.053+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : Content type:image/jpeg
-2023-10-01T16:10:59.053+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : File size : 150438
-2023-10-01T16:10:59.053+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : File name : 1520113553494.jpg
-2023-10-01T16:10:59.053+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : Content type:image/jpeg
-2023-10-01T16:10:59.054+05:30  INFO 16572 --- [http-nio-9090-exec-2] c.lcwd.todo.controller.FileController    : File size : 97511
-2023-10-01T16:45:23.533+05:30  INFO 812 --- [main] com.lcwd.todo.TodoManagerApplication     : Starting TodoManagerApplication using Java 17.0.7 with PID 812 (E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager)
-2023-10-01T16:45:23.538+05:30  INFO 812 --- [main] com.lcwd.todo.TodoManagerApplication     : No active profile set, falling back to 1 default profile: "default"
-2023-10-01T16:45:25.612+05:30  INFO 812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
-2023-10-01T16:45:25.627+05:30  INFO 812 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2023-10-01T16:45:25.628+05:30  INFO 812 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
-2023-10-01T16:45:25.801+05:30  INFO 812 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2023-10-01T16:45:25.802+05:30  INFO 812 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2153 ms
-2023-10-01T16:45:26.388+05:30  INFO 812 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
-2023-10-01T16:45:26.410+05:30  INFO 812 --- [main] com.lcwd.todo.TodoManagerApplication     : Started TodoManagerApplication in 3.833 seconds (process running for 4.673)
-2023-10-01T16:46:28.978+05:30  INFO 812 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-10-01T16:46:28.981+05:30  INFO 812 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-10-01T16:46:28.993+05:30  INFO 812 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2023-10-06T11:00:33.146+05:30  INFO 6616 --- [main] com.lcwd.todo.TodoManagerApplication     : Starting TodoManagerApplication using Java 17.0.7 with PID 6616 (E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager)
+2023-10-06T11:00:33.229+05:30  INFO 6616 --- [main] com.lcwd.todo.TodoManagerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-06T11:00:48.611+05:30  INFO 6616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-10-06T11:00:48.697+05:30  INFO 6616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-06T11:00:48.701+05:30  INFO 6616 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-06T11:00:49.519+05:30  INFO 6616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-06T11:00:49.523+05:30  INFO 6616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 13894 ms
+2023-10-06T11:00:53.231+05:30  INFO 6616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-06T11:00:53.278+05:30  INFO 6616 --- [main] com.lcwd.todo.TodoManagerApplication     : Started TodoManagerApplication in 26.943 seconds (process running for 29.979)
+2023-10-06T11:01:39.200+05:30  INFO 6616 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-06T11:01:39.207+05:30  INFO 6616 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-06T11:01:39.229+05:30  INFO 6616 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 21 ms
+2023-10-06T11:01:40.065+05:30 ERROR 6616 --- [http-nio-9090-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.NullPointerException: Cannot invoke "String.length()" because "str" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "String.length()" because "str" is null
+	at com.lcwd.todo.controller.TodoController.createTodoHandler(TodoController.java:34) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.0.12.jar:6.0.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.13.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.0.12.jar:6.0.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-10.1.13.jar:10.1.13]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2023-10-06T11:06:29.426+05:30  INFO 19640 --- [main] com.lcwd.todo.TodoManagerApplication     : Starting TodoManagerApplication using Java 17.0.7 with PID 19640 (E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager)
+2023-10-06T11:06:29.434+05:30  INFO 19640 --- [main] com.lcwd.todo.TodoManagerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-06T11:06:31.357+05:30  INFO 19640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-10-06T11:06:31.377+05:30  INFO 19640 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-06T11:06:31.377+05:30  INFO 19640 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-06T11:06:31.551+05:30  INFO 19640 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-06T11:06:31.552+05:30  INFO 19640 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1989 ms
+2023-10-06T11:06:32.289+05:30  INFO 19640 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-06T11:06:32.306+05:30  INFO 19640 --- [main] com.lcwd.todo.TodoManagerApplication     : Started TodoManagerApplication in 3.822 seconds (process running for 4.91)
+2023-10-06T11:06:39.769+05:30  INFO 19640 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-06T11:06:39.772+05:30  INFO 19640 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-06T11:06:39.781+05:30  INFO 19640 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2023-10-06T11:13:37.984+05:30  INFO 9376 --- [main] com.lcwd.todo.TodoManagerApplication     : Starting TodoManagerApplication using Java 17.0.7 with PID 9376 (E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager)
+2023-10-06T11:13:37.990+05:30  INFO 9376 --- [main] com.lcwd.todo.TodoManagerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-06T11:13:40.132+05:30  INFO 9376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-10-06T11:13:40.152+05:30  INFO 9376 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-06T11:13:40.153+05:30  INFO 9376 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-06T11:13:40.399+05:30  INFO 9376 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-06T11:13:40.400+05:30  INFO 9376 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2289 ms
+2023-10-06T11:13:41.231+05:30  INFO 9376 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-06T11:13:41.252+05:30  INFO 9376 --- [main] com.lcwd.todo.TodoManagerApplication     : Started TodoManagerApplication in 4.116 seconds (process running for 4.815)
+2023-10-06T11:13:48.118+05:30  INFO 9376 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-06T11:13:48.119+05:30  INFO 9376 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-06T11:13:48.129+05:30  INFO 9376 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2023-10-06T11:14:49.232+05:30  INFO 13420 --- [main] com.lcwd.todo.TodoManagerApplication     : Starting TodoManagerApplication using Java 17.0.7 with PID 13420 (E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager)
+2023-10-06T11:14:49.240+05:30  INFO 13420 --- [main] com.lcwd.todo.TodoManagerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-06T11:14:53.017+05:30  INFO 13420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-10-06T11:14:53.028+05:30  INFO 13420 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-06T11:14:53.028+05:30  INFO 13420 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-06T11:14:53.227+05:30  INFO 13420 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-06T11:14:53.229+05:30  INFO 13420 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3853 ms
+2023-10-06T11:14:54.180+05:30  INFO 13420 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-06T11:14:54.208+05:30  INFO 13420 --- [main] com.lcwd.todo.TodoManagerApplication     : Started TodoManagerApplication in 6.013 seconds (process running for 6.773)
+2023-10-06T11:16:14.813+05:30  INFO 9316 --- [main] com.lcwd.todo.TodoManagerApplication     : Starting TodoManagerApplication using Java 17.0.7 with PID 9316 (E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager)
+2023-10-06T11:16:14.827+05:30  INFO 9316 --- [main] com.lcwd.todo.TodoManagerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-06T11:16:17.610+05:30  INFO 9316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-10-06T11:16:17.624+05:30  INFO 9316 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-06T11:16:17.626+05:30  INFO 9316 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-06T11:16:17.907+05:30  INFO 9316 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-06T11:16:17.909+05:30  INFO 9316 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2888 ms
+2023-10-06T11:16:19.500+05:30  INFO 9316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-06T11:16:19.535+05:30  INFO 9316 --- [main] com.lcwd.todo.TodoManagerApplication     : Started TodoManagerApplication in 6.136 seconds (process running for 6.959)
+2023-10-06T11:16:36.973+05:30  INFO 9316 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-06T11:16:36.975+05:30  INFO 9316 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-06T11:16:36.996+05:30  INFO 9316 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 18 ms
+2023-10-06T11:31:52.106+05:30  INFO 18248 --- [main] com.lcwd.todo.TodoManagerApplication     : Starting TodoManagerApplication using Java 17.0.7 with PID 18248 (E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager)
+2023-10-06T11:31:52.112+05:30  INFO 18248 --- [main] com.lcwd.todo.TodoManagerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-06T11:31:55.295+05:30  INFO 18248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-10-06T11:31:55.325+05:30  INFO 18248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-06T11:31:55.326+05:30  INFO 18248 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-06T11:31:55.590+05:30  INFO 18248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-06T11:31:55.591+05:30  INFO 18248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3343 ms
+2023-10-06T11:31:56.557+05:30  INFO 18248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-06T11:31:56.580+05:30  INFO 18248 --- [main] com.lcwd.todo.TodoManagerApplication     : Started TodoManagerApplication in 5.652 seconds (process running for 6.729)
+2023-10-06T11:32:02.630+05:30  INFO 18248 --- [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-06T11:32:02.631+05:30  INFO 18248 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-06T11:32:02.633+05:30  INFO 18248 --- [http-nio-9090-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-06T11:32:02.915+05:30  INFO 18248 --- [http-nio-9090-exec-2] c.l.t.exceptions.GlobalExceptionHandler  : Its null pointer exception from global handler
+2023-10-06T12:54:39.744+05:30  INFO 15032 --- [main] com.lcwd.todo.TodoManagerApplication     : Starting TodoManagerApplication using Java 17.0.7 with PID 15032 (E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager\target\classes started by Srijan in E:\LCWD Course\SpringBootWithDurgesh\todo-manager\todo-manager)
+2023-10-06T12:54:39.782+05:30  INFO 15032 --- [main] com.lcwd.todo.TodoManagerApplication     : No active profile set, falling back to 1 default profile: "default"
+2023-10-06T12:54:50.261+05:30  INFO 15032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2023-10-06T12:54:50.336+05:30  INFO 15032 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-10-06T12:54:50.338+05:30  INFO 15032 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-06T12:54:51.203+05:30  INFO 15032 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-10-06T12:54:51.208+05:30  INFO 15032 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 10703 ms
+2023-10-06T12:54:55.302+05:30  INFO 15032 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2023-10-06T12:54:55.426+05:30  INFO 15032 --- [main] com.lcwd.todo.TodoManagerApplication     : Started TodoManagerApplication in 20.551 seconds (process running for 28.712)
+2023-10-06T12:58:54.808+05:30  INFO 15032 --- [http-nio-9090-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-06T12:58:54.814+05:30  INFO 15032 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-06T12:58:54.832+05:30  INFO 15032 --- [http-nio-9090-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2023-10-06T12:58:56.875+05:30  INFO 15032 --- [http-nio-9090-exec-4] c.lcwd.todo.controller.TodoController    : Current Date : Fri Oct 06 12:58:56 IST 2023
+2023-10-06T12:58:56.892+05:30  INFO 15032 --- [http-nio-9090-exec-4] c.lcwd.todo.controller.TodoController    : Creating todo
+2023-10-06T12:58:56.895+05:30  INFO 15032 --- [http-nio-9090-exec-4] c.lcwd.todo.controller.TodoController    : todo date Sat Oct 22 05:30:00 IST 2022
+2023-10-06T12:58:56.897+05:30  INFO 15032 --- [http-nio-9090-exec-4] com.lcwd.todo.services.TodoService       : Todos [Todo{id=324097, title='important for Javascript', content='Java Multithreading is very important topic for an interview', status='Pending', addedDate=Fri Oct 06 12:58:56 IST 2023, todoDate=Sat Oct 22 05:30:00 IST 2022}]
+2023-10-06T13:00:09.760+05:30  INFO 15032 --- [http-nio-9090-exec-9] com.lcwd.todo.services.TodoService       : TODO : Todo{id=324097, title='important for Javascript', content='Java Multithreading is very important topic for an interview', status='Pending', addedDate=Fri Oct 06 12:58:56 IST 2023, todoDate=Sat Oct 22 05:30:00 IST 2022}
+2023-10-06T13:00:23.596+05:30  INFO 15032 --- [http-nio-9090-exec-2] c.l.t.exceptions.GlobalExceptionHandler  : ERROR : Todo not found with given ID
+2023-10-06T13:00:50.271+05:30  INFO 15032 --- [http-nio-9090-exec-3] com.lcwd.todo.services.TodoService       : Deleting Todo
+2023-10-06T13:03:41.636+05:30  INFO 15032 --- [http-nio-9090-exec-10] c.l.t.exceptions.GlobalExceptionHandler  : ERROR : Todo not found with given ID
